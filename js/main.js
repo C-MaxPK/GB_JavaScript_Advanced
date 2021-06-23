@@ -8,7 +8,7 @@ const products = [
 ];
 
 const renderProduct = (item, img='https://via.placeholder.com/200x150') => `
-          <div class="product-item" data-id="${this.id}">
+          <div class="product-item" data-id="${item.id}">
               <img src="${img}" alt="Some img">
               <div class="desc">
                   <h3>${item.title}</h3>
