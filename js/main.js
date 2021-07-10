@@ -58,7 +58,7 @@ const app = new Vue({
     },
   },
   
-  mounted() {
+  created() {
     this.getJson(`${API + this.cartUrl}`)
       .then(data => {
         for (let el of data.contents) {
